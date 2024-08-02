@@ -1,0 +1,67 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: #1e1e1e; /* Fondo muy oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo del contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para los encabezados */
+h1 {
+    color: #c0392b; /* Color rojo oscuro */
+}
+
+h2 {
+    color: #7f8c8d; /* Color gris oscuro */
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #b0b0b0; /* Color gris claro para el texto */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #333333; /* Color negro para el fondo del botón */
+    border: 2px solid #c0392b; /* Borde rojo oscuro */
+    border-radius: 5px;
+    color: #e0e0e0; /* Texto claro del botón */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin: 5px; /* Espaciado entre botones */
+}
+
+button:hover {
+    background-color: #c0392b; /* Fondo rojo oscuro al pasar el ratón */
+    border-color: #e74c3c; /* Borde rojo más claro */
+}
+
+/* Estilo para el input de número */
+input[type="number"] {
+    background-color: #333333; /* Fondo negro del input */
+    color: #e0e0e0; /* Texto claro */
+    border: 1px solid #7f8c8d; /* Borde gris oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="number"]::placeholder {
+    color: #7f8c8d; /* Color del placeholder gris oscuro */
+}
+
+/* Estilo para el párrafo de recomendaciones */
+#recomendaciones {
+    color: #c0392b; /* Color rojo oscuro para las recomendaciones */
+}
